@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    <body>
+        <div id = "main-container">
+            <h1>Generate a <span>random password</span></h1>
+            <p>Never use the same password again.</p>
+            <input id = "password-length-field" type="text" placeholder = "Enter specified password length...">
+            <button onclick="generatePasswords()">Generate passwords</button>
+            <div id = "underline"></div>
+            <div id = "output-container">
+                <div>
+                    <div id = "first-output" class = "password-output"></div>
+                </div>
+                <div>
+                    <div id = "second-output" class = "password-output"></div>
+                </div>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
